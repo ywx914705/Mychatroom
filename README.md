@@ -41,27 +41,9 @@ Mychatroom 是一个基于 C++ 编写的简易聊天室项目，采用 Reactor �
 自实现线程池与任务队列，无 STL 依赖
 
 代码结构清晰，模块化设计，便于扩展
-
-项目结构
-text
-Mychatroom/
-├── src/
-│   ├── reactor/          # Reactor 核心模块
-│   │   ├── EventLoop.cpp
-│   │   ├── EpollPoller.cpp
-│   │   └── Channel.cpp
-│   ├── threadpool/       # 自实现线程池
-│   │   ├── ThreadPool.cpp
-│   │   └── List.hpp      # 自实现链表
-│   ├── network/          # 网络通信模块
-│   │   ├── TcpServer.cpp
-│   │   ├── TcpConnection.cpp
-│   │   └── Socket.cpp
-│   └── main.cpp          # 程序入口
-├── Makefile
-└── README.md
 🧪 编译与运行
 环境要求
+
 Linux 系统（支持 epoll）
 
 g++ 支持 C++11 或以上
