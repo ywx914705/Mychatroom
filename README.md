@@ -70,11 +70,8 @@ g++ 支持 C++11 或以上
 bash
 make clean
 make
-启动服务器
-bash
-./bin/mychatroom_server [端口号，默认为 8888]
-启动客户端
-可使用 telnet 或自实现客户端连接：
+分别启动服务器与客户端
+服务器只需要./程序名+port即可，而客户端要有ip以及port
 
 bash
 telnet 127.0.0.1 8888
